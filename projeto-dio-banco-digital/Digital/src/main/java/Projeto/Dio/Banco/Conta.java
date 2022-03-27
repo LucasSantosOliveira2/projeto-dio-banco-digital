@@ -39,6 +39,7 @@ public abstract class Conta implements IConta {
 
 	protected void imprimirInfos() {
 		System.out.printf("Nome: %s%n", this.cliente.getNome());
+		System.out.printf("Cpf: %s%n", this.cliente.getCpf());
 		System.out.printf("Agencia: %d%n", this.agencia);
 		System.out.printf("Numero: %d%n", this.numero);
 		System.out.printf("Saldo: %.2f%n", this.saldo);
